@@ -7,7 +7,11 @@
         <title>{{config('app.name','NORSEMYTH')}}</title>
 
     </head>
-    <body class="antialiased">
-        @yield('content')
+
+    <body>
+        @include('inc.navbar')
+        <div  class="container">
+            @yield('content')
+        </div>
     </body>
 </html>
