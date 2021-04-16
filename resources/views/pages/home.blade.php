@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('Layouts.app')
 
-        <title>{{config('app.name','NORSEMYTH')}}</title>
+@section('content')
+    <h1>Home</h1>
+@endsection
 
-    </head>
-    <body class="antialiased">
-        <h1>Home</h1>
-    </body>
-</html>
