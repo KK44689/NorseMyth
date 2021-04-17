@@ -1,5 +1,5 @@
 @extends('Layouts.app')
-
+@include('inc.navbarHome')
 @section('content')
     <div class="jumbotron p-3 p-md-5 text-white rounded">
         <div class="col px-0">

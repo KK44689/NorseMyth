@@ -10003,7 +10003,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  background-color: #3c4134;
+}
+
 .navbar-custom {
+  background-color: rgba(177, 173, 155, 0.972);
+}
+
+.navbar-custom-gods {
   background-color: rgba(177, 173, 155, 0.972);
 }
 
@@ -10011,10 +10019,6 @@ h3 {
   background-color: rgba(255, 248, 220, 0.479);
   margin-top: 12rem;
   margin-bottom: 4rem;
-}
-
-body {
-  background-color: #3c4134;
 }
 
 .navbar-brand-custom {
