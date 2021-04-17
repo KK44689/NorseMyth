@@ -8,7 +8,7 @@
 
     </head>
 
-    <body>
+    <body class="{{ $body_class }}">
         <div  class="container">
             @yield('content')
         </div>

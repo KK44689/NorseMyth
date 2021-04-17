@@ -1,26 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-$body-bg: rgb(60, 65, 52);
+.bg-green { background-color: rgb(60, 65, 52) }
+.bg-teal {background-color: rgb(52, 65, 62)}
 
-body{
-    background-color: $body-bg;
+#godsButton{
+    background-color: rgb(52, 65, 62);
+    color: honeydew;
 }
 
-.navbar-custom{
-    background-color: rgba(177, 173, 155, 0.972);
+#NavHome > .navbar-custom {
+    background-color: rgba(87, 84, 73, 0.972);
 }
 
-.navbar-custom-gods{
-    background-color: rgba(177, 173, 155, 0.972);
+#NavGods > .navbar-custom{
+    background-color: rgb(91, 104, 99);
 }
 
-.jumbotron{
-    background-color: rgba(255, 248, 220, 0.479);
+#gods > .jumbotron{
+    background-color: rgba(155, 177, 170, 0.972);
     margin-top: 12rem;
     margin-bottom: 4rem;
 }
 
-.navbar-brand-custom{
+#home > .jumbotron{
+    background-color: rgba(175, 170, 146, 0.972);
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+#gods_link {
+    color: rgb(0, 65, 65);
+    font-size: 1.25rem;
+}
+
+#brandGods{
+    color: rgb(192, 238, 227);
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#brandHome {
+    color: rgb(175, 189, 152) ;
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
     font-weight: 700;
@@ -35,8 +62,9 @@ body{
 
 .pararaphFont{
     font-family: "Nunito", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: honeydew;
+    margin-bottom: 4rem;
 }
 
 .ref{
@@ -44,4 +72,13 @@ body{
     font-size: medium;
     color: rgb(194, 194, 194);
     margin-bottom: 4rem;
+}
+
+#cardTitle{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#cardbody{
+    font-size: 1.5rem;
 }

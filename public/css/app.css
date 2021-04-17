@@ -10003,25 +10003,59 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
+.bg-green {
   background-color: #3c4134;
 }
 
-.navbar-custom {
-  background-color: rgba(177, 173, 155, 0.972);
+.bg-teal {
+  background-color: #34413e;
 }
 
-.navbar-custom-gods {
-  background-color: rgba(177, 173, 155, 0.972);
+#godsButton {
+  background-color: #34413e;
+  color: honeydew;
 }
 
-.jumbotron {
-  background-color: rgba(255, 248, 220, 0.479);
+#NavHome > .navbar-custom {
+  background-color: rgba(87, 84, 73, 0.972);
+}
+
+#NavGods > .navbar-custom {
+  background-color: #5b6863;
+}
+
+#gods > .jumbotron {
+  background-color: rgba(155, 177, 170, 0.972);
   margin-top: 12rem;
   margin-bottom: 4rem;
 }
 
-.navbar-brand-custom {
+#home > .jumbotron {
+  background-color: rgba(175, 170, 146, 0.972);
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+#gods_link {
+  color: #004141;
+  font-size: 1.25rem;
+}
+
+#brandGods {
+  color: #c0eee3;
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#brandHome {
+  color: #afbd98;
   font-family: "Amatic SC", cursive;
   font-size: 3rem;
   font-weight: 700;
@@ -10036,8 +10070,9 @@ body {
 
 .pararaphFont {
   font-family: "Nunito", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: honeydew;
+  margin-bottom: 4rem;
 }
 
 .ref {
@@ -10045,4 +10080,13 @@ body {
   font-size: medium;
   color: #c2c2c2;
   margin-bottom: 4rem;
+}
+
+#cardTitle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#cardbody {
+  font-size: 1.5rem;
 }
