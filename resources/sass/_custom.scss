@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+.navbar-custom{
+    background-color: rgba(153, 150, 137, 0.479);
+}
+
+.jumbotron{
+    background-color: rgba(255, 248, 220, 0.479);
+    margin-top: 8rem;
+}
+
+body{
+    // background-image: url('C:/xampp/htdocs/NorseMyth/resources/views/Layouts/pic/celtic.jpg');
+    background-color: rgb(60, 65, 52);
+}
+
+.navbar-brand-custom{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Titlefont{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    color: honeydew;
+}
+
+.pararaphFont{
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+    color: honeydew;
+}
+
+.ref{
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+    color: rgb(194, 194, 194);
+    margin-bottom: 8rem;
+}
