@@ -10009,7 +10009,8 @@ h3 {
 
 .jumbotron {
   background-color: rgba(255, 248, 220, 0.479);
-  margin-top: 8rem;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
 }
 
 body {
@@ -10018,8 +10019,7 @@ body {
 
 .navbar-brand-custom {
   font-family: "Amatic SC", cursive;
-  color: darkslategrey;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -10040,5 +10040,5 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: medium;
   color: #c2c2c2;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
