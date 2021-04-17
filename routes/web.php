@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\PagesController@home');
 Route::get('/gods&goddess', 'App\Http\Controllers\PagesController@gods');
 
+Route::get('posts', 'App\Http\Controllers\PostsController');
+
