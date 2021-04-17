@@ -10004,7 +10004,7 @@ h3 {
   }
 }
 .navbar-custom {
-  background-color: rgba(153, 150, 137, 0.479);
+  background-color: rgba(177, 173, 155, 0.972);
 }
 
 .jumbotron {
@@ -10018,6 +10018,7 @@ body {
 
 .navbar-brand-custom {
   font-family: "Amatic SC", cursive;
+  color: darkslategrey;
   font-size: 2rem;
   font-weight: 700;
 }
