@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a id="gods_link" class="nav-link" href="/NorseMyth/public/gods&goddess">Gods & Goddesses<span class="sr-only">(current)</span></a>
+              <a id="gods_link" class="nav-link" href="/NorseMyth/public/posts">Gods & Goddesses<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>

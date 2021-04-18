@@ -12,9 +12,9 @@ class PagesController extends Controller
          ]);
     }
 
-    public function gods(){
-        return view('pages.gods',[
-            'body_class' => 'bg-teal'
-         ]);
-    }
+    // public function gods(){
+    //     return view('pages.gods',[
+    //         'body_class' => 'bg-teal'
+    //      ]);
+    // }
 }
