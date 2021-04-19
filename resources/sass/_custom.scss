@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+//Background color
 .bg-green { background-color: rgb(60, 65, 52) }
 .bg-teal {background-color: rgb(52, 65, 62)}
+.bg-blue {background-color: rgb(66, 75, 78)}
 
+//Continue Reading button
 #godsButton{
     background-color: rgb(52, 65, 62);
     color: honeydew;
     font-size: medium;
 }
+#othersButton{
+    background-color: rgb(66, 75, 78);
+    color: honeydew;
+    font-size: medium;
+}
 
+//Navbar bg color
 #NavHome > .navbar-custom {
     background-color: rgba(87, 84, 73, 0.972);
 }
@@ -17,6 +26,11 @@
     background-color: rgb(91, 104, 99);
 }
 
+#NavOthers > .navbar-custom{
+    background-color: rgb(96, 116, 121);
+}
+
+//jumbotron
 #gods > .jumbotron{
     background-color: rgba(155, 177, 170, 0.972);
     margin-top: 12rem;
@@ -29,6 +43,13 @@
     margin-bottom: 4rem;
 }
 
+#other > .jumbotron{
+    background-color: rgba(149, 179, 182, 0.972);
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+//navbar link
 .nav-link{
     font-size: 1.25rem;
     font-weight: 700;
@@ -40,6 +61,12 @@
     font-size: 1.25rem;
 }
 
+#others_link {
+    color: rgb(10, 47, 71);
+    font-size: 1.25rem;
+}
+
+//brand on navbar
 #brandGods{
     color: rgb(192, 238, 227);
     font-family: 'Amatic SC', cursive;
@@ -54,6 +81,14 @@
     font-weight: 700;
 }
 
+#brandOther {
+    color: rgb(196, 230, 231) ;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+//show title and paragraph
 .Titlefont{
     font-family: 'Amatic SC', cursive;
     font-size: 4rem;
@@ -75,6 +110,7 @@
     margin-bottom: 4rem;
 }
 
+//card
 #cardTitle{
     font-size: 2rem;
     font-weight: 700;

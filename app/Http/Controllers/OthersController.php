@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Others;
 
 class OthersController extends Controller
 {
@@ -13,7 +14,8 @@ class OthersController extends Controller
      */
     public function index()
     {
-        //
+        $others = Others::all();
+        return view('others.index',['body_class' => 'bg-blue'])->with('others',$others);
     }
 
     /**
@@ -45,7 +47,8 @@ class OthersController extends Controller
      */
     public function show($id)
     {
-        //
+        $other = Others::find($id);
+        return view('others.show',['body_class' => 'bg-blue'])->with('other',$other);
     }
 
     /**

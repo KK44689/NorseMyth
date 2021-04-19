@@ -11,11 +11,9 @@
             <a class="nav-link" href="/NorseMyth/public/posts">Gods & Goddesses<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="/NorseMyth/public/others">Other Creatures</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+
         </ul>
       </div>
     </nav>

@@ -10011,9 +10011,20 @@ h3 {
   background-color: #34413e;
 }
 
+.bg-blue {
+  background-color: #424b4e;
+}
+
 #godsButton {
   background-color: #34413e;
   color: honeydew;
+  font-size: medium;
+}
+
+#othersButton {
+  background-color: #424b4e;
+  color: honeydew;
+  font-size: medium;
 }
 
 #NavHome > .navbar-custom {
@@ -10024,6 +10035,10 @@ h3 {
   background-color: #5b6863;
 }
 
+#NavOthers > .navbar-custom {
+  background-color: #607479;
+}
+
 #gods > .jumbotron {
   background-color: rgba(155, 177, 170, 0.972);
   margin-top: 12rem;
@@ -10032,6 +10047,12 @@ h3 {
 
 #home > .jumbotron {
   background-color: rgba(175, 170, 146, 0.972);
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+}
+
+#other > .jumbotron {
+  background-color: rgba(149, 179, 182, 0.972);
   margin-top: 12rem;
   margin-bottom: 4rem;
 }
@@ -10047,6 +10068,11 @@ h3 {
   font-size: 1.25rem;
 }
 
+#others_link {
+  color: #0a2f47;
+  font-size: 1.25rem;
+}
+
 #brandGods {
   color: #c0eee3;
   font-family: "Amatic SC", cursive;
@@ -10056,6 +10082,13 @@ h3 {
 
 #brandHome {
   color: #afbd98;
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#brandOther {
+  color: #c4e6e7;
   font-family: "Amatic SC", cursive;
   font-size: 3rem;
   font-weight: 700;
