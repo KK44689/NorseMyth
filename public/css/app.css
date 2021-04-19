@@ -10142,9 +10142,18 @@ h3 {
   font-size: 1.25rem;
 }
 
-#others_link {
+#others_nav_links {
   color: #0a2f47;
   font-size: 1.25rem;
+  margin-right: 60rem;
+}
+
+#others_nav {
+  margin-right: 60rem;
+}
+
+#SearchButton {
+  margin-left: 2rem;
 }
 
 #brandGods {
@@ -10210,7 +10219,7 @@ h3 {
 .ref {
   font-family: "Nunito", sans-serif;
   font-size: medium;
-  color: #cccccc;
+  color: #dddddd;
   margin-bottom: 4rem;
 }
 

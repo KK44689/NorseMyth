@@ -11,10 +11,16 @@
             <a class="nav-link" href="/NorseMyth/public/posts">Gods & Goddesses<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/NorseMyth/public/others">Other Creatures</a>
+            <a class="nav-link " id="others_nav" href="/NorseMyth/public/others">Other Creatures</a>
           </li>
-
+          <form class="d-flex" >        
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <div id="SearchButton">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </div>
+          </form>
         </ul>
       </div>
     </nav>
+
 </div>

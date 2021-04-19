@@ -123,6 +123,9 @@
     background-color: rgb(96, 116, 121);
 }
 
+//navbar search
+
+
 //jumbotron
 #gods > .jumbotron {
     background-color: rgba(155, 177, 170, 0.972);
@@ -154,9 +157,17 @@
     font-size: 1.25rem;
 }
 
-#others_link {
+#others_nav_links {
     color: rgb(10, 47, 71);
     font-size: 1.25rem;
+    margin-right: 60rem;
+}
+
+#others_nav{
+    margin-right: 60rem;
+}
+#SearchButton{
+    margin-left: 2rem;
 }
 
 //brand on navbar
@@ -222,8 +233,9 @@
 .ref {
     font-family: "Nunito", sans-serif;
     font-size: medium;
-    color: rgb(204, 204, 204);
+    color: rgb(221, 221, 221);
     margin-bottom: 4rem;
+    // margin-left: 25%;
 }
 
 .pic {
@@ -241,3 +253,5 @@
 #cardbody {
     font-size: 1.5rem;
 }
+
+//form

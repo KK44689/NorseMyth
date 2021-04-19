@@ -12,10 +12,12 @@
     <br>
     <div class='row'>
         <img class="pic" src={{ $post->pic }} alt={{ $post->title }}>
+        <p class="ref">By {{$post->picRef}}</p>
     </div>
     <br><br>
     <div class='row'>
         <p class='pararaphFont'>{{ $post->body }}</p>
+        <p class='ref'>{{ $post->ref }}</p>
     </div>
     
 @endsection
