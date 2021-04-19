@@ -6,21 +6,27 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a id="gods_link" class="nav-link" href="/NorseMyth/public/posts">Gods & Goddesses<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " id="others_nav" href="/NorseMyth/public/others">Other Creatures</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <div id="SearchButton">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </div>
-            </form>
+            <div class='d-flex col-7'>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="gods_link" class="nav-link" href="/NorseMyth/public/posts">Gods & Goddesses<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/NorseMyth/public/others">Other Creatures</a>
+                    </li>
+                    {{-- id="others_nav" --}}
+                </ul>
+            </div>
+            <div class='col-5 pt-2 pb-2'>
+                <form class="d-flex" type="get" action="{{ url('/searchGod') }}">
+                    <input class="form-control me-2" type="search" name="query" placeholder="Search God or Goddess"
+                        aria-label="Search">
+                    <div id="SearchButton">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </nav>
 </div>

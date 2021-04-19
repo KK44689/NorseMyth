@@ -18,6 +18,12 @@ class PostsController extends Controller
         return view('posts.index',['body_class' => 'bg-teal'])->with('posts',$posts);
     }
 
+    public function search(){
+        $search_text = $_GET['query'];
+        $posts = Post::where('title','LIKE','%'.$search_text.'%')->get();
+        return view('posts.search',['body_class' => 'bg-teal'],compact('posts'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

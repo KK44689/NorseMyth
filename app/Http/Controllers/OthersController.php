@@ -18,6 +18,12 @@ class OthersController extends Controller
         return view('others.index',['body_class' => 'bg-blue'])->with('others',$others);
     }
 
+    public function search(){
+        $search_text = $_GET['query'];
+        $others = Others::where('title','LIKE','%'.$search_text.'%')->get();
+        return view('others.search',['body_class' => 'bg-blue'],compact('others'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

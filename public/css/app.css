@@ -10145,7 +10145,6 @@ h3 {
 #others_nav_links {
   color: #0a2f47;
   font-size: 1.25rem;
-  margin-right: 60rem;
 }
 
 #others_nav {
@@ -10236,4 +10235,8 @@ h3 {
 
 #cardbody {
   font-size: 1.5rem;
+}
+
+#not_found {
+  margin-bottom: 60%;
 }
