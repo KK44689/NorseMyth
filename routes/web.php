@@ -17,4 +17,5 @@ Route::get('/', 'App\Http\Controllers\PagesController@home');
 // Route::get('/gods&goddess', 'App\Http\Controllers\PagesController@gods');
 
 Route::resource('posts', 'App\Http\Controllers\PostsController');
+Route::resource('others', 'App\Http\Controllers\OthersController');
 
