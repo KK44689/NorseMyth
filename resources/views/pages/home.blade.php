@@ -2,9 +2,9 @@
 @include('inc.navbarHome')
 @section('content')
     <div id="home">
-        <div class="jumbotron p-3 p-md-5 text-white rounded">
+        <div class=" p-3 p-md-5 text-white rounded">
             <div class="col px-0">
-                <h1 class="text-center Titlefont text-dark">Welcome to NorseMyth</h1>
+                <h1 class="text-center Welcomefont text-dark">Welcome to NorseMyth</h1>
                 <p class="lead my-3 text-center pararaphFont">The storage of Norse Mythology.</p>
             </div>
         </div>

@@ -4,7 +4,7 @@
     <div id="gods">
         <div class="jumbotron p-3 p-md-5 text-white rounded">
             <div class="col px-0">
-                <h1 class="text-center Titlefont text-dark">Norse Mythology : Gods & Goddesses</h1>
+                <h1 class="text-center Titlefont text-dark">Norse Mythology : <br>Gods & Goddesses</h1>
             </div>
         </div>
     </div>

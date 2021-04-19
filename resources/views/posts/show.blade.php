@@ -1,7 +1,7 @@
 @extends('Layouts.app')
 @include('inc.navbarGods')
 @section('content')
-    <br><br><br><br><br><br>
+    <br><br>
     <div class='row'>
         <a class="btn btn-outline-light" href="/NorseMyth/public/posts" role="button">Back</a>
     </div>
@@ -11,7 +11,7 @@
     </div>
     <br>
     <div class='row'>
-        <img src={{ $post->pic }} alt={{ $post->title }}>
+        <img class="pic" src={{ $post->pic }} alt={{ $post->title }}>
     </div>
     <br><br>
     <div class='row'>

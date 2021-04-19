@@ -1,17 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 
 //Background color
-.bg-green { background-color: rgb(60, 65, 52) }
-.bg-teal {background-color: rgb(52, 65, 62)}
-.bg-blue {background-color: rgb(66, 75, 78)}
+.bg-green {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    // padding-bottom: 4rem;
+    position: relative;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.815
+    ); /* If our image is bright, we can tone it down with this darker overlay */
+}
+.bg-green:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://cdn.3axis.co/user-images/078yy3no.png");
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.3; /* Tone the image down further by giving it transparency */
+}
+.bg-green > .container {
+    background-color: rgb(129, 126, 108);
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 0.125rem;
+}
+
+// .bg-teal {background-color: rgb(52, 65, 62)}
+.bg-teal {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    // padding-bottom: 4rem;
+    position: relative;
+    background: rgba(
+        52,
+        65,
+        62,
+        0.815
+    ); /* If our image is bright, we can tone it down with this darker overlay */
+}
+.bg-teal:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://image.freepik.com/free-vector/celtic-ornament_1159-3657.jpg");
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.1; /* Tone the image down further by giving it transparency */
+}
+.bg-teal > .container {
+    background-color: rgb(107, 122, 116);
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 0.125rem;
+}
+// .bg-blue {background-color: rgb(66, 75, 78)}
+.bg-blue {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    // padding-bottom: 4rem;
+    position: relative;
+    background: rgba(
+        66,
+        75,
+        78,
+        0.815
+    ); /* If our image is bright, we can tone it down with this darker overlay */
+}
+.bg-blue:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://www.marcels-kid-crafts.com/image-files/celtic-knot-patterns-1.jpg");
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.1; /* Tone the image down further by giving it transparency */
+}
+.bg-blue > .container {
+    background-color: rgb(110, 131, 133);
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 0.125rem;
+}
 
 //Continue Reading button
-#godsButton{
+#godsButton {
     background-color: rgb(52, 65, 62);
     color: honeydew;
     font-size: medium;
 }
-#othersButton{
+#othersButton {
     background-color: rgb(66, 75, 78);
     color: honeydew;
     font-size: medium;
@@ -19,38 +112,38 @@
 
 //Navbar bg color
 #NavHome > .navbar-custom {
-    background-color: rgba(87, 84, 73, 0.972);
+    background-color: rgb(87, 84, 73);
 }
 
-#NavGods > .navbar-custom{
+#NavGods > .navbar-custom {
     background-color: rgb(91, 104, 99);
 }
 
-#NavOthers > .navbar-custom{
+#NavOthers > .navbar-custom {
     background-color: rgb(96, 116, 121);
 }
 
 //jumbotron
-#gods > .jumbotron{
+#gods > .jumbotron {
     background-color: rgba(155, 177, 170, 0.972);
-    margin-top: 12rem;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
+    // margin-bottom: 4rem;
 }
 
-#home > .jumbotron{
+#home > .jumbotron {
     background-color: rgba(175, 170, 146, 0.972);
-    margin-top: 12rem;
-    margin-bottom: 4rem;
+    // margin-top: 6rem;
+    // margin-bottom: 2rem;
 }
 
-#other > .jumbotron{
+#other > .jumbotron {
     background-color: rgba(149, 179, 182, 0.972);
-    margin-top: 12rem;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
+    // margin-bottom: 4rem;
 }
 
 //navbar link
-.nav-link{
+.nav-link {
     font-size: 1.25rem;
     font-weight: 700;
     margin-left: 2rem;
@@ -67,55 +160,84 @@
 }
 
 //brand on navbar
-#brandGods{
+#brandGods {
     color: rgb(192, 238, 227);
-    font-family: 'Amatic SC', cursive;
+    font-family: "Amatic SC", cursive;
     font-size: 3rem;
     font-weight: 700;
 }
 
 #brandHome {
-    color: rgb(175, 189, 152) ;
-    font-family: 'Amatic SC', cursive;
+    color: rgb(175, 189, 152);
+    font-family: "Amatic SC", cursive;
     font-size: 3rem;
     font-weight: 700;
 }
 
 #brandOther {
-    color: rgb(196, 230, 231) ;
-    font-family: 'Amatic SC', cursive;
+    color: rgb(196, 230, 231);
+    font-family: "Amatic SC", cursive;
     font-size: 3rem;
     font-weight: 700;
 }
 
 //show title and paragraph
-.Titlefont{
-    font-family: 'Amatic SC', cursive;
-    font-size: 4rem;
+.Welcomefont {
+    font-family: "Amatic SC", cursive;
+    font-size: 8rem;
     font-weight: 700;
     color: honeydew;
 }
 
-.pararaphFont{
+#home {
+    margin-bottom: 4rem;
+}
+
+.Titlefont {
+    font-family: "Amatic SC", cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    color: honeydew;
+}
+#gods .Titlefont {
+    font-family: "Amatic SC", cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    color: honeydew;
+}
+#other .Titlefont {
+    font-family: "Amatic SC", cursive;
+    font-size: 8rem;
+    font-weight: 700;
+    color: honeydew;
+}
+
+.pararaphFont {
     font-family: "Nunito", sans-serif;
     font-size: 1.5rem;
     color: honeydew;
     margin-bottom: 4rem;
 }
 
-.ref{
+.ref {
     font-family: "Nunito", sans-serif;
     font-size: medium;
-    color: rgb(194, 194, 194);
+    color: rgb(204, 204, 204);
     margin-bottom: 4rem;
 }
 
+.pic {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
 //card
-#cardTitle{
+#cardTitle {
     font-size: 2rem;
     font-weight: 700;
 }
 
-#cardbody{
+#cardbody {
     font-size: 1.5rem;
 }
